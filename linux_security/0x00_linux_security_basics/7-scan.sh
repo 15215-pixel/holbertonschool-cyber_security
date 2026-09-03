@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "" ; sudo nmap -n "$1"
+printf '%s\n' "$1" | sudo nmap -n
